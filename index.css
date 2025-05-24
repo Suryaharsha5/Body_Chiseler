@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero-section {
+    background-image: url('your-hero-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(51, 4, 4);
+    padding: 100px 0;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.btn-primary-custom {
+    background-color: #ffcc00; /* Custom button color */
+    border: none;
+    color: black;
+}
+.btn-primary-custom:hover {
+    background-color: #e6b800; /* Darker shade on hover */
+}
+
+.footer-links a {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+.footer-links a:hover {
+    color: yellow; /* Hover color */
+}

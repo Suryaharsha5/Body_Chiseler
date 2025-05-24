@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.login-form {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-form h1 {
+    margin-bottom: 1.5rem;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+.btn-primary-custom {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+}
+.form-text {
+    color: #6c757d;
+}
+
+.footer-links a {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+.footer-links a:hover {
+    color: yellow; /* Hover color */
+}
